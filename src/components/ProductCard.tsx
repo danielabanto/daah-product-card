@@ -24,7 +24,8 @@ const { Provider } = ProductContext
 
 export const useProductContext = () => useContext(ProductContext)
 
-export const ProductCard = ({ product, children, className="", style, value, onChange, initialValues }: ProductCardProps) => {
+export const ProductCard = 
+  ({ product, children, className="", style, value, onChange, initialValues }: ProductCardProps) => {
   const { 
     counter, 
     increaseBy, 
